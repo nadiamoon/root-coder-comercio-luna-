@@ -9,37 +9,15 @@ body {
     font-family: 'Oswald', sans-serif;
     color: #000000;
     font-size: 1em;
-    min-height: 100vh;
+    min-width: 1000px;
     width: 100%;
+    text-align: center;
   }
 
-.grid {
-    width: 100%;
-    min-height: 100vh;
-    display: grid;
-    grid-template-columns: auto;
-    grid-template-rows: auto 1fr auto;
-    grid-template-areas: 
-    "header-index"
-    "main-index"
-    "footer-index";
-}
+
 /*video backgr*/
  
        
-video {
-    position: fixed;
-    height: 100%;
-    width: 100%;
-    right: 0;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    object-fit: cover;
-    z-index: -2;
-    opacity: 0.4;
-}
-
 
 
 /*Aqui comienza el header de la pagina index*/
@@ -51,9 +29,10 @@ video {
     justify-content: space-between;
     align-items: center;
     top: 0;
-    margin-left: 0;
+    margin: 0;
     margin-bottom: 1%;
 }
+
 
 .logo {
     width: 3%;
@@ -63,7 +42,7 @@ video {
 
 
 /*caracteristicas globales de la caja nav*/
-.nav {
+.nav-index {
     display: flex;
     justify-content: space-between;
     margin-right: 4%;
@@ -72,10 +51,9 @@ video {
 /*estilo global de la lista del index*/
 
 
-.lista li {
+.listarti-index li {
     list-style: none;
-    font-size: 3em;
-    flex: space-between;
+   display: inline;
    
 }
 
@@ -86,9 +64,10 @@ li a:hover {
 
 /*estilo especifico del menu*/
 
-a {
+.header-index a {
    text-decoration: none;
    color: #3a3838;
+   padding: 5px 12px;
 }
 
 /*aqui termina el header del index*/
@@ -99,17 +78,59 @@ a {
 /*caracteristicas globales de la caja main de index*/
 
 .main-index {
-    grid-area: main;
+    width: 100%;
+    min-height: 270%;
+    z-index: -2;
+    background: linear-gradient(rgba(241, 243, 247, 0.8), rgba(241, 243, 247, 0.8)), url(../img/airelibre.jpg), no-repeat;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
+@media (max-width: 375px){
+    .header-index{ 
+        display:flex;
+        justify-content:flex-start;
+        font-size: 2em;
+     
+    }
+    .logo {
+        width: 10%;
+    }
 
-.main-index {
-    width: 100%;
-    height: 100vh;
-    top: 10%;
-    margin: 0;
-    position: absolute;
-      
+.main-container {
+    flex-wrap: wrap;
+    font-size: .7em;
+   
+  
+   
+}
+
+.title-index1 {
+    float: left;
+}
+.video-index {
+    display: block;
+  
+    
+    
+}
+
+.two {
+    width: 375px;
+}
+
+.contenedor-unosection .texto-uno{
+  
+    float: left;
+}}
+
+
+
+
+.main-container {
+    max-width: 1400px;
+    margin: auto;
+    text-align: center;
 }
 
 .title-index1 {
@@ -117,8 +138,8 @@ a {
     position: relative;
 }
 
-h1 {
-    font-size: 5em;
+.title-index1 {
+    font-size: 2.5em;
     padding: 1%;
     letter-spacing: 2%;
     color: #3a3838;
@@ -278,6 +299,7 @@ iframe {
     margin-bottom: 15%;
     text-align: center;
     border-collapse: collapse;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.4)
   
 }
 
@@ -308,22 +330,16 @@ main (todos terminados)*/
 /*_______________________________________________________________________________________*/
 
 /*aqui comienza el footer del index*/
-
 /*caracteristicas globales de la caja footer*/
-.footer-index {
+footer .footer-index {
+    width: auto;
+    height: 50%;
+    margin-top: 120%;
+    margin-bottom: 0;
     box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.4);
-    width: 100%;
-    height: 10%;
-   
-    
-  }
-
-  .footer-index {
-    grid-area: footer;
 }
 
-
-.pp-index{
+ .pp-index{
     font-size: 1em;
     color: rgb(138, 135, 135);
     text-align: right;
@@ -333,20 +349,30 @@ main (todos terminados)*/
 /*AQUI TERMINA EL FOOTR DEL INDEX*/
 
 
-@media (max-width: 1000px) {
-    a {
-        min-width: 1em;
-        max-height: 1em;
-    }
-}
 
-@media (max-width: 1000px) {
-     body {
-      font-size: 1.3em;
-}    header {
-      min-width: auto;
-}
-}
+    /*.nav-index{
+        flex-direction: row;
+        padding-bottom: 0;
+        padding-right: 20px;
+    }
+    
+    .main-container {
+        text-align: center;
+        font-size: 1em;
+     
+    }
+
+
+    
+}*/
+    
+       
+       
+    
+
+
+    
+
     
 /*ACA TERMINA EL CSS DEL INDEX*/
 
@@ -363,10 +389,11 @@ main (todos terminados)*/
 body {
     font-family: 'Oswald', sans-serif;
     color: #000000;
-    font-size: 1em;
-    min-height: 100vh;
-}
-
+    font-size: 2em;
+    min-width: 1000px;
+    width: 100%;
+    text-align: center;
+  }
 /*HEADER DE PRODUCTOS*/
 
 .header1 {
@@ -381,15 +408,21 @@ body {
     margin-bottom: 10px;
 }
 
- .header1 a {
-    width: 30%;
+
+.caja-logo-prod {
+    width: 20%;
+    height: auto;
+    right: 10px;
+   }
+
+ .caja-logo-prod a {
+    width: 20%;
+
 }
 
 .logo1 {
     width: 15%;
-    padding: 13px;
-    
-}
+ }
 
 .logo1:hover {
     box-shadow: 5px 5px 20px rgba (0,0,0, 1);
@@ -399,13 +432,14 @@ body {
 /*caracteristicas globales de la caja nav productos*/
 
 /*estilo global de la lista DE PRODUCTOS*/
-.lista li {
+.lista-productos li {
     list-style: none;
     font-size: 20px;
     color: #3a3838;
     display: inline-block;
+   }
 
-}
+
 
 li a:hover{
     color: rgb(150, 146, 146);
@@ -420,14 +454,19 @@ li a:hover{
     color: #3a3838;
 }
 
-.container {
+.main-productos {
     position: absolute;
     height: 270%;
     width: 100%;
     z-index: -2;
-    display: flex;
     background: linear-gradient(rgba(241, 243, 247, 0.8), rgba(241, 243, 247, 0.8)), url(../img/airelibre.jpg), no-repeat;
     background-size: 100%;
+}
+
+.contenedor-padre-prod {
+    max-width: 1400px;
+    margin: auto;
+    display: flex;
 }
 
 
@@ -436,7 +475,7 @@ li a:hover{
      height: 30%;
      position: relative;
      left: 40%;
-     top: 5%;
+     margin-top: 5%;
     
     }
 
@@ -465,7 +504,7 @@ li a:hover{
     height: 15%;
     right: 10%;
     margin: 20px;
-    margin-top: 20%;
+    margin-top: 25%;
     border-radius: 8px;
     overflow: hidden;
     background: #ece7e7;
@@ -523,7 +562,7 @@ li a:hover{
 .texto-section-product{
    margin-top: 40px;
    width: 90%;
-   top: 30%;
+   top: 20%;
    position: absolute;
    }
 
@@ -573,6 +612,32 @@ li a:hover{
     text-shadow: 3px 4px 0px #b8b6b6;
 
 }
+
+
+@media (min-width: 850px){
+    .header1{
+        width: 100%;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .nav-productos{
+        flex-direction: row;
+        padding-bottom: 0;
+        padding-right: 20px;
+    }
+
+    .contenedor-padre-prod {
+        display: flex;
+    }
+
+
+
+    
+}
+
+
+
 
 
 /*____________________________________________*/
@@ -1018,7 +1083,7 @@ body {
 /*caracteristicas globales de la caja nav de contacto*/
 
 /*estilo global de la lista contacto*/
-.lista li {
+.lista-contacto li {
     list-style: none;
     font-size: 1em;
     display: inline-block;
