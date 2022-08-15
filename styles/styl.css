@@ -1,247 +1,27 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 body {
     
     font-family: 'Oswald', sans-serif;
     color: #505962;
     overflow-x: hidden;
-  }
-
-
-
-/*Aqui comienza el header de la pagina index*/
-/*caracteristicas globales de header*/
- 
-
-.logo {
-   margin-left: 3%;
-    padding: 5px;
-}
-
-.lista li{
-    display: inline;
-    list-style: none;
 }
 
 
-li a:hover {
-    color: rgb(150, 146, 146);
-    text-transform: uppercase;
-}
+/*caracteristicas globales de la caja nav*/
 
-/*aqui termina el header del index*/
-
-
-
-/*aqui  comienza el main del index*/
-/*caracteristicas globales de la caja main de index*/
-
-/* .main-index {
- width: 100%;
- margin-top:20%;
-      
-}
-
-.title-index1 {
-    text-align: center;
-    position: relative;
-}
-
-/*h1 {
-    font-size: 5em;
-    padding: 1%;
-    letter-spacing: 2%;
-    color: #3a3838;
-    text-shadow: 3px 4px 0px #b8b6b6;
-}*/
-
-
-
-/*caracteristicas globales de la caja section de index (dentro de main)*/
-
-.two {
-    width: 100%;
-    position: relative;
-    top: 10%;
-    width: 100%;
-    display: inline-block;
-}
-
-/*el titulo dentro de section de index*/
-
-
-
-
-
-
-
-
-
-
-
-
-.contenedor-dosection {
-    width: 100%;
-    margin: 5px;
-    display: inline-block;
-}
-
-.dos-section {
-    width: 100%;
-    display: inline-block;
-
-}
-
-.text-dos {
-    font-size: 1,2em;
-    letter-spacing: 20px;
-    color: #002531;
-}
-
-.dos-section .text-dos {
-    margin-top: 10%;
-}
-
-.mejor {
-    max-width: 50%;
-    float: right;
-    margin-right: 20px;
-   
-}
-
-.contenedor-tresection {
-    width: 100%;
-    display: inline-block;
-}
-
-.tres-section {
-    width: 90%;
-    
-}
-
-.smarth {
-    max-width: 50%;
-    float: left;
-}
-
-.text-tres {
-    width: 40%;
-    font-style: italic;
-    font-weight: bold;
-    float: right;
-    margin-top: 10%;
-} */
-
-/*aqui termina la caja section */
-
-/*_____________________________________________________*/
-
-/*aqui comienza la caja article del index*/
-/*caracterisaticas globales de la caja article que contiene una tabla*/
-.article-index {
-    position: relative;
-    width: 100%;
-    margin-top: 5%;
-    padding: 5%;
-    text-align: center;
-             
-}
-
-.article-index h2 {
-    font-size: 3em;
-    color: #4d4b4b;
-    text-shadow: 3px 4px 0px #b8b6b6;
-    padding-bottom: 2%;
-}
-
-
-.table {
-    width: 50%;
-    height: 30%;
-    margin-left: 25%;
-    margin-bottom: 15%;
-    text-align: center;
-    border-collapse: collapse;
   
-}
-
-.table thead {
-    border-bottom: solid, 30px, black;
-}
-
-.table tr,
-th,
-td {
-    border: solid 1px black;
-    padding: 10px;
-
-}
-
-table th {
-    font-size: 30px;
-}
-
-table td {
-    font-size: 25px;
-} */
-
-
-/* aca termina la caja table contenida en article y a su vez en su padre
-main (todos terminados)*/
-
-/*_______________________________________________________________________________________*/
-
-/*aqui comienza el footer del index*/
-
-/*caracteristicas globales de la caja footer*/
-.footer-index {
-    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.4);
-    width: 100%;
-    height: 10%;
-   
-    
+.form-control-dark {
+    border-color: var(--bs-gray);
   }
-
-  .footer-index {
-    grid-area: footer;
-}
-
-
-.pp-index{
-    font-size: 1em;
-    color: rgb(138, 135, 135);
-    text-align: right;
+  .form-control-dark:focus {
+    border-color: #fff;
+    box-shadow: 0 0 0 .25rem rgba(255, 255, 255, .25);
+  }
   
-}
-
-/*AQUI TERMINA EL FOOTR DEL INDEX*/
-
-/* @media (max-width: 1000px) {
-    a {
-        min-width: 1em;
-        max-height: 1em;
-    }
-}
-
-@media (max-width: 1000px) {
-     body {
-      font-size: 1.3em;
-}    header {
-      min-width: auto;
-}
-} */
-    
-
-
-/*_____________________________________________*/ 
-/*css de productos*/
-
-
-
-
-/*HEADER DE PRODUCTOS*/
-
+  .text-small {
+    font-size: 85%;
+  }
+  
+  .dropdown-toggle {
+    outline: 0;
+  }
+  
