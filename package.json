@@ -1,0 +1,22 @@
+{
+  "name": "root-coder-comercio-luna",
+  "version": "1.0.0",
+  "description": "pagina comercial de tecnologia",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nadiamoon/web-comercial-Luna-coder.git"
+  },
+  "keywords": [
+    "web"
+  ],
+  "author": "nadiamoon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nadiamoon/web-comercial-Luna-coder/issues"
+  },
+  "homepage": "https://github.com/nadiamoon/web-comercial-Luna-coder#readme"
+}
