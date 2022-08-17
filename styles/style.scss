@@ -2,13 +2,6 @@
 
 $color-principal: rgb(61, 57, 57);
 $color-letra: rgb(70, 60, 70);
-$container-max-widths: (
-  sm: 540px,
-  md: 720px,
-  lg: 960px,
-  xl: 1140px,
-  xxl: 1320px
-);
 
 
 body {
@@ -18,3 +11,4 @@ body {
 h1 {
     color: $color-letra;
 }
+
