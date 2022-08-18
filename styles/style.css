@@ -2,6 +2,11 @@ body {
   color: rgb(61, 57, 57);
 }
 
+.logo1 {
+  width: 10%;
+  padding: 2%;
+}
+
 h1 {
   color: rgb(70, 60, 70);
 }/*# sourceMappingURL=style.css.map */
