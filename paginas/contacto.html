@@ -1,88 +1,260 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../styles/styl.css">
-    <script src="https://unpkg.com/feather-icons"></script>
+    <link rel="stylesheet" href="../styles/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
     <title>Contacto</title>
 </head>
+
 <body>
+    <header class="container-fluid">
 
-    
-    <header class="header-contacto">
-        <a class="logo-manzana" href="../index.html">
-        <img class="logo-cont" src="../img/logoplata.png" alt="logo-apple" />
-  
-    <nav class="nav-cont">
-        <ul class="lista-contacto">
-            <li><a href="./productos.html">Productos</a></li>
-            <li><a href="./nosotros.html">Nosotros</a></li>
-            <li><a href="./soporte.html">Soporte</a></li>
-            <li><a href="./contacto.html">Contacto</a></li>
-        </ul>
-    </nav>
-</header>
-
-
-
-<main class="inicial-contacto">
-        <div class="title-contacto">
-        <h1>Atencion al Cliente</h1>
-        </div>
-
-        <div class="video-cont">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/XxRZLQXEZlI?autoplay=1;mute=1;loop=1;controls=0 controls=0;start=141" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
-       </div>
-
-        <section class="titulos-cont">
-            <h2 class="title2">Contacto</h2>
-        </section>
-
-            <div class="submenu-cont" >
-            <ul class="listita-cont">
-                <li><svg xmlns="http://www.w3.org/2000/svg" width="52" height="52" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="feather feather-message-square"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg> Chat</li>
-                <li><svg xmlns="http://www.w3.org/2000/svg" width="52" height="52" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="feather feather-phone"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>telefono</li>
-                <li><svg xmlns="http://www.w3.org/2000/svg" width="52" height="52" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="feather feather-twitter"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path></svg>Twiteer</li>
-                <li><svg xmlns="http://www.w3.org/2000/svg" width="52" height="52" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="feather feather-facebook"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg>Facebook</li>
-                <li><svg xmlns="http://www.w3.org/2000/svg" width="52" height="52" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="feather feather-linkedin"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>Linkedinl</li>
-            </ul>
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="../index.html">
+                    <img class="logo1" src="../img/logoplata.png" alt="logo-principal">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle-navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="./productos.html">productos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="./soporte.html">soporte</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="./nosotros.html">nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="./contacto.html">contacto</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-            
-            <section class="texto-cont" >
-            <p>Tambien podes dejarnos tus datos y a la brevedad un asesor se comunicará contigo.</p>
-            </section>
+        </nav>
+    </header>
 
-        <section class="formulario-contacto">
-            <form action="" method="post">
-                <div class="form-contact">
-                    <label for="name"></label>
-                    <input type="text" id="name" placeholder="Nombre">
+
+
+    <main class="container-fluid">
+        <div class="row align-items-center justify-content-between">
+
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12" class="title-index1">
+                <h1 class="text-center">Iphone Evil</h1>
+            </div>
+
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12" class="title-index1">
+                <h1 class="text-center">Atencion al Cliente</h1>
+            </div>
+
+            <div class="row align-items-center justify-content-between">
+                <div class="ratio ratio-16x9">
+                    <iframe class="embed-responsive" width="560" height="315"
+                        src="https://www.youtube.com/embed/XxRZLQXEZlI?autoplay=1;mute=1;loop=1;controls=0 controls=0;start=141"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
                 </div>
-                <div class="form-contact">
-                    <label for="surname"></label>
-                    <input type="text" id="surname" placeholder="apellido">
-                </div>
-                <div class="form-contact">
-                    <label for="email"></label>
-                    <input type="email" id="email" placeholder="email">
-                </div>
-                <div class="form-contact">
-                    <label for="contrasena"></label>
-                    <input type="password" id="contrasena" placeholder="contrasena">
-                </div>
-                <div class="form-contact button">
-                    <input type="button" value="Enviar">
-                </div>
-            </form>
-        </section>
+            </div>
+        </div>
     </main>
 
-    <footer class="footer-cont">
-        <p>Derechos Reservados</p>
-    </footer>
-
     
+    <section id="portfolio" class="portfolio section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-header text-center pb-5">
+                        <h2>Nuestras Community Manager</h2>
+                        <p> Las chicas son las mejores en el area, tienen la Capacidad de comunicación, buena atención al servicio al cliente.
+                            Buena onda, experiencia para resolver cualquier duda.<br>Se las presentamos</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-12 col-lg-4">
+                    <div class="card text-light text-center bg-white pb-2">
+                        <div class="card-body text-dark">
+                            <div class="img-area mb-4">
+                                <img src="../img/community1.jpg" alt="" class="img-fluid">
+                            </div>
+                            <h3 class="card-title">Andrea</h3>
+                            <p class="lead">Puedo compartirte informacion que puede interesasrte. Estoy para ayudarte.</p>
+                            <button class="btn bg-warning text-dark">Contactate</button>
+
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-12 col-md-12 col-lg-4">
+                    <div class="card text-light text-center bg-white pb-2">
+                        <div class="card-body text-dark">
+                            <div class="img-area mb-4">
+                                <img src="../img/community2.jpg" alt="" class="img-fluid">
+                            </div>
+                            <h3 class="card-title">Sinndy</h3>
+                            <p class="lead">Me encanta la Tecnologia, con gusto te presenytare nuestras novedades.</p>
+                            <button class="btn bg-warning text-dark">Contactate</button>
+
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-12 col-md-12 col-lg-4">
+                    <div class="card text-light text-center bg-white pb-2">
+                        <div class="card-body text-dark">
+                            <div class="img-area mb-4">
+                                <img src="../img/community4.jpg" alt="" class="img-fluid">
+                            </div>
+                            <h3 class="card-title">Agustina</h3>
+                            <p class="lead">Todos pueden acceder a un buen equipo tecnologico. Escribime y te cuento.</p>
+                            <button class="btn bg-warning text-dark">Contactate</button>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="redes" class="redes section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-header text-center pb-5">
+                        <h2 class="text-center">Nuestras Redes</h2>
+                        <p> Nos encanta estar en permanente contacto con clientes y amigos.
+                            Nos gusta realizar muchos sorteos, jugar y comparti contenido de interes. Seguinos y te seguimos</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="card text-center">
+                        <div class="card-body">
+                            <img src="../img/twitter.jpg" alt="" class="img-fluid rounded-circle">
+                            <h3 class="card-title py-2">twitter</h3>
+                            <p class="card-text">Visitanos</p>
+
+                            <p class="socials">
+                                <i class="bi bi-twitter text-dark mx-1"></i>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="card text-center">
+                        <div class="card-body">
+                            <img src="../img/insta.jpg" alt="" class="img-fluid rounded-circle">
+                            <h3 class="card-title py-2">Instagram</h3>
+                            <p class="card-text">Seguinos</p>
+
+                            <p class="socials">
+                              <i class="bi bi-instagram text-dark mx-1"></i>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="card text-center">
+                        <div class="card-body">
+                            <img src="../img/face.jpg" alt="facebook-img" class="img-fluid rounded-circle">
+                            <h3 class="card-title py-2">Facebook</h3>
+                            <p class="card-text">Nuestra Favorita</p>
+
+                            <p class="socials">
+                               <i class="bi bi-facebook text-dark mx-1"></i>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="card text-center">
+                        <div class="card-body">
+                            <img src="../img/tik.jpg" alt="tik tok img" class="img-fluid rounded-circle">
+                            <h3 class="card-title py-2">Tik Tok</h3>
+                            <p class="card-text">Veni a divertirte</p>
+
+                            <p class="socials">
+                                <i class="bi bi-tiktok text-dark mx-1"></i>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-header text-center pb-5">
+                        <h2>Contactanos</h2>
+                        <p> Las chicas son las mejores en el area, tienen la Capacidad de comunicación, buena atención al servicio al cliente.
+                            Buena onda, experiencia para resolver cualquier duda.<br>Se las presentamos</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row m0">
+                <div class="col-md-12 p-0 pt-4 p-4 m-auto">
+                   <div class="row">
+                    <div class="col-md-12">
+                      <div class="mb-3">
+                        <input type="text" class="form-control" required placeholder="your fuull name">
+                      </div>   
+                    </div>
+                    <div class="col-md-12">
+                        <div class="mb-3">
+                          <input type="email" class="form-control" required placeholder="your email">
+                        </div>   
+                      </div>
+                      <div class="col-md-12">
+                        <div class="mb-3">
+                          <textarea rows="3" required class="form-control" placeholder="Dejanos tu opinion o consulta"></textarea>
+                        </div>   
+                      </div>
+                      <button class="btn btn-warning btn-lg btn-block mt-3">Send Now</button>
+                   </div> 
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <!--contacto-->
+
+    <section id="contact" class="contact section-padding">
+        <div class="container">
+
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+                <footer class="footer">
+                    <p>Derechos Reservados</p>
+                </footer>
+
+                <!--javascript bootstrap bundle whit popper-->
+                <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+                    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+                    crossorigin="anonymous"> </script>
 </body>
+
 </html>

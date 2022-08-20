@@ -3,6 +3,11 @@ $color-body: rgb(226, 241, 248);
 $color-principal: rgb(61, 57, 57);
 $color-letra: rgb(70, 60, 70);
 
+
+
+/*INDEX*/
+
+
 *{
     font-family: montserrat;
 }
@@ -20,6 +25,9 @@ h1 h2 h3 {
     color: $color-letra;
 }
 
+
+
+/*NOSOTROS*/
 .section-padding {
     padding: 100px 0;
 }
@@ -90,6 +98,24 @@ h1 h2 h3 {
             width: 100%;
         }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media only screen and (max-width:767px){
     .carousel-caption {
