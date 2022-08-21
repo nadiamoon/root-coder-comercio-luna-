@@ -1,5 +1,4 @@
 //variables
-$color-body: rgb(250, 251, 252);
 $color-principal: rgb(61, 57, 57);
 $color-letra: rgb(70, 60, 70);
 $color-letra2: rgb(54, 47, 54);
@@ -15,8 +14,7 @@ $font-size-base: 1rem;
 }
 
 body {
-    background: $color-body;
-    font-family: monserrat, "Helvetica Neue", Helvetica, sans-serif;
+   font-family:$font-family-base;
 }
 
 .logo1 {
@@ -132,24 +130,6 @@ h1 h2 h3 {
             width: 100%;
         }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 @media only screen and (max-width:767px){
     .carousel-caption {
