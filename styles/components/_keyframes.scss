@@ -1,0 +1,35 @@
+@keyframes t1{
+    0% {
+        transform: rotate(45deg) translateY(0px);
+    }
+   50% {
+    transform: rotate(45deg) translateY(20px);
+   }
+   100% {
+    transform: rotate(45deg) translate(0px);
+   }
+}
+
+@keyframes t2{
+    0% {
+        transform: rotate(45deg) translateY(0px);
+    }
+   50% {
+    transform: rotate(45deg) translateY(20px);
+   }
+   100% {
+    transform: rotate(45deg) translate(0px);
+   }
+}
+
+@keyframes t3{
+    0% {
+        transform: rotate(45deg) translateY(0px);
+    }
+   50% {
+    transform: rotate(45deg) translateY(20px);
+   }
+   100% {
+    transform: rotate(45deg) translate(0px);
+   }
+}

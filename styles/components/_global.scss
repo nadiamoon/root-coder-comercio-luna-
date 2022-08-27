@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+}
+body {
+   font-family:$font-family-base;
+}
+
+.logo1 {
+    width: 8%;
+    padding: 2%;
+}
+
+h1, h2, h3 {
+    color: map-get($color, $color-principal);
+   
+}
