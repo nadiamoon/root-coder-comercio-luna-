@@ -183,23 +183,20 @@ section.main-soporte {
 /*ANIMACION SOPORTE*/
 .container__background-triangle {
   max-width: 1200px;
-  height: 300px;
-  margin: auto;
   position: absolute;
-  margin-top: 20%;
-  left: 50%;
+  margin-top: 10%;
   transform: translate(-50%, -50%);
 }
 
 .triangle {
-  width: 300px;
-  height: 300px;
+  width: 200px;
+  height: 200px;
   position: absolute;
 }
 
 .triangle1 {
-  width: 200px;
-  height: 200px;
+  width: 150px;
+  height: 150px;
   background: linear-gradient(to left, #0ea1e6, #1e67c7);
   right: 100px;
   -webkit-animation: t1 8s ease infinite;
@@ -207,8 +204,8 @@ section.main-soporte {
 }
 
 .triangle2 {
-  width: 150px;
-  height: 150px;
+  width: 100px;
+  height: 100px;
   background: linear-gradient(to left, #ee8105, #c7371e);
   margin-top: 80px;
   right: 10px;
