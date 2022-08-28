@@ -184,7 +184,7 @@ section.main-soporte {
 .container__background-triangle {
   max-width: 1200px;
   position: absolute;
-  margin-top: 10%;
+  margin-top: 20%;
   transform: translate(-50%, -50%);
 }
 
@@ -198,7 +198,7 @@ section.main-soporte {
   width: 150px;
   height: 150px;
   background: linear-gradient(to left, #0ea1e6, #1e67c7);
-  right: 100px;
+  right: 70px;
   -webkit-animation: t1 8s ease infinite;
           animation: t1 8s ease infinite;
 }
@@ -208,7 +208,7 @@ section.main-soporte {
   height: 100px;
   background: linear-gradient(to left, #ee8105, #c7371e);
   margin-top: 80px;
-  right: 10px;
+  right: 40px;
   -webkit-animation: t2 9s ease infinite;
           animation: t2 9s ease infinite;
 }
@@ -217,7 +217,7 @@ section.main-soporte {
   width: 100px;
   height: 100px;
   background: linear-gradient(to left, #1b8fc5, #df0f8f);
-  left: 200px;
+  left: 70px;
   -webkit-animation: t3 7s ease infinite;
           animation: t3 7s ease infinite;
 }

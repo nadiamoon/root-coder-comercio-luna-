@@ -28,7 +28,7 @@ section.main-soporte {
 /*ANIMACION SOPORTE*/
 .container__background-triangle {
     max-width: 1200px;
-    margin-top: 10%;
+    margin-top: 30%;
     margin-right: 50%;
     position: absolute;
     transform: translate(-50%, -50%);
@@ -38,37 +38,29 @@ section.main-soporte {
     width: 300px;
     height: 300px;
     position: absolute;
- 
-    }
-
+     }
 .triangle1 {
     width: 200px;
     height: 200px;
     background: linear-gradient(to left, #0ea1e6, #1e67c7);
-    right: 100px;
+    right: 70px;
     animation: t1 8s ease infinite;
-  
-
-}
-
+ }
 .triangle2 {
     width: 150px;
     height: 150px;
     background: linear-gradient(to left, #ee8105, #c7371e);
     margin-top: 80px;
-    right: 10px;
+    right: 40px;
     animation: t2 9s ease infinite;
-  
 }
-
 .triangle3 {
     width: 100px;
     height: 100px;
     background: linear-gradient(to left, #1b8fc5, #df0f8f);
-    left: 200px;
+    left: 70px;
     animation: t3 7s ease infinite;
 }
-
 /*FIN DE LA ANIMACION SOPORTE*/
 
 /*CARDS SOPORTE*/
@@ -79,7 +71,6 @@ section.main-soporte {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-      
 }
 
 .card__soporte {
@@ -99,9 +90,6 @@ section.main-soporte {
 .card__soporte:hover{
     transform: translateY(-10px)
 }
-
-
-
 .card__soporte:hover .cover__card img {
     transform: scale(1.1);
 }
@@ -116,7 +104,6 @@ section.main-soporte {
 .cover__card img {
     width: 110%;
     transition: all 300ms;
-
 }
 
 .card__soporte h2 {
@@ -154,5 +141,10 @@ section.main-soporte {
     color: beige;
 }
 /*FIN DE CARDS DE SOPORTE*/
-
 /*FIN DE SOPORTE*/
+
+/*SECCION TARJETAS*/
+.card_text {
+    font-size: $font $size-base;
+     color: $color $color-3;
+}
