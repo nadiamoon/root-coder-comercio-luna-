@@ -1,6 +1,6 @@
 /*PARTIALS IMPORT*/
 /*MEDIAS*/
-@media only screen and (min-width: 768px) and (max-widht: 991px) {
+@media only screen and (min-width: 768px) and (max-widht: 1000px) {
   .carousel-caption {
     bottom: 370px;
   }
@@ -99,6 +99,8 @@
 }
 * {
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
   
 }
 
@@ -205,14 +207,6 @@ section.main-soporte {
           animation: t1 8s ease infinite;
 }
 
-/*.triangle2 {
-  width: 100px;
-  height: 100px;
-  background: linear-gradient(to left, #0ea1e6, #1e67c7);
-  margin-top: 90%;
-  -webkit-animation: t2 9s ease infinite;
-          animation: t2 9s ease infinite;
-}*/
 
 .triangle3 {
   width: 100px;
@@ -367,7 +361,7 @@ section.main-soporte {
 
 section.back-productos {
   position: relative;
-  background-image:url(../img/new.webp);
+  background-image:url(../img/auricul.jpg);
   height: 100vh;
   background-size: cover;
   background-position: center;
