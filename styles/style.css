@@ -99,6 +99,7 @@
 }
 * {
   margin: 0;
+  
 }
 
 body {
@@ -182,42 +183,42 @@ section.main-soporte {
 /*FINAL DE MAIN SOPORTE*/
 /*ANIMACION SOPORTE*/
 .container__background-triangle {
-  max-width: 1200px;
-  position: absolute;
-  margin-top: 20%;
-  transform: translate(-50%, -50%);
+  max-width: 1000px;
+  position: relative;
+  transform: translate(-46%, -46%);
+
 }
 
 .triangle {
   width: 200px;
   height: 200px;
   position: absolute;
+  margin-top: 30%;
 }
 
 .triangle1 {
   width: 150px;
   height: 150px;
-  background: linear-gradient(to left, #0ea1e6, #1e67c7);
-  right: 70px;
+  left: 100px;
+  background: linear-gradient(to left, #ee8105, #c7371e); 
   -webkit-animation: t1 8s ease infinite;
           animation: t1 8s ease infinite;
 }
 
-.triangle2 {
+/*.triangle2 {
   width: 100px;
   height: 100px;
-  background: linear-gradient(to left, #ee8105, #c7371e);
-  margin-top: 80px;
-  right: 40px;
+  background: linear-gradient(to left, #0ea1e6, #1e67c7);
+  margin-top: 90%;
   -webkit-animation: t2 9s ease infinite;
           animation: t2 9s ease infinite;
-}
+}*/
 
 .triangle3 {
   width: 100px;
   height: 100px;
   background: linear-gradient(to left, #1b8fc5, #df0f8f);
-  left: 70px;
+  left: 5px;
   -webkit-animation: t3 7s ease infinite;
           animation: t3 7s ease infinite;
 }
@@ -362,4 +363,24 @@ section.main-soporte {
 
 .team .card {
   box-shadow: 15px 15px 40px rgba(0, 0, 0, 0.15);
-}/*# sourceMappingURL=style.css.map */
+}
+
+section.back-productos {
+  position: relative;
+  background-image:url(../img/new.webp);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+   
+}
+
+
+
+
+
+
+
+
+
+/*# sourceMappingURL=style.css.map */

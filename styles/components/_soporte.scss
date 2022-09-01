@@ -12,22 +12,12 @@ section.main-soporte {
      
 }
 
-.main-soporte::before {
-    position: absolute;
-    content: "";
-    background-color: map-get($color rgba($color-principal, $alpha: 0.9) );
-    top: 0%;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    opacity: .9;
 
-}
 /*FINAL DE MAIN SOPORTE*/
 
 /*ANIMACION SOPORTE*/
 .container__background-triangle {
-    max-width: 1200px;
+    max-width: 1000px;
     margin-top: 30%;
     margin-right: 50%;
     position: absolute;
@@ -43,7 +33,7 @@ section.main-soporte {
     width: 200px;
     height: 200px;
     background: linear-gradient(to left, #0ea1e6, #1e67c7);
-    right: 70px;
+    right: 2%;
     animation: t1 8s ease infinite;
  }
 .triangle2 {
