@@ -326,9 +326,14 @@ section.back-productos {
 }
 /*FIN DE LA SECTION TEAM DE NOSOTROS*/
 /*FIN DE NOSOTROS*/
-/**/
+
+/*CONTACTO*/
 .contacto_card i{
   font-size: 50px;
+}
+
+.form_nos {
+  margin-left: 50px;
 }
 
 /*FOOTER DE TODAS LAS PAGINAS*/
