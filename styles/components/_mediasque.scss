@@ -1,7 +1,8 @@
+//NADIA LUNA: DESAFIO CODER https://nadiamoon.github.io/root-coder-comercio-luna-
+
+
 /*MEDIAS*/
-
-
-@media only screen and (min-width:768px)and (max-widht:991px){
+@media only screen and (min-width:375px)and (max-widht:991px){
     .carousel-caption{
      bottom: 370px;
      }
@@ -10,7 +11,7 @@
      }
 }
 
-@media only screen and (max-width:767px){
+@media only screen and (min-width:375px) and (max-width:991px){
  .carousel-caption {
      bottom:125px;
  }

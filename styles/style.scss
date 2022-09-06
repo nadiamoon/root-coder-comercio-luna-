@@ -3,10 +3,9 @@
 /*PARTIALS IMPORT*/
 //GLOBALES
 @import "components/variables";
-@import "components/global";
 @import "components/mediasque";
 @import "components/keyframes";
-
+@import "components/global";
 
 //COMPONENTES
 @import "components/header";
@@ -14,5 +13,7 @@
 @import "components/index";
 @import "components/soporte";
 @import "components/productos";
-@import "components/nosotros";
-@import "components/contacto"
+@import "components/nosotros"
+
+
+

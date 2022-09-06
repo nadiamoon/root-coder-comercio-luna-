@@ -1,34 +1,34 @@
 //NADIA LUNA: DESAFIO CODER https://nadiamoon.github.io/root-coder-comercio-luna-
 
-//HEADERS
+//HEADERS (CON ANIDACION)//
 .header {
     box-shadow: 15px 15px 40px rgba(158, 156, 156, 0.1,1);
-}
 
 //NAVBAR
 //SE UTILIZO MAP-GET PARA LLAMAR A LAS VARIABLES AGRUPADAS EN MAP
-.navbar.nav a{
-    font-size: 15px;
-    text-transform: uppercase;
-    font-weight: 500;
-}
+        .navbar.nav a{
+           font-size: 15px;
+           text-transform: uppercase;
+           font-weight: 500;
+         }
 
-.navbar-light .navbar-brand {
-    color: map-get($colors, color-letra2);
-    font-size: 25px;
-    text-transform: uppercase;
-    font-weight: 700;
-    letter-spacing: 2px;
-}
+        .navbar-light .navbar-brand {
+            color: map-get($colors, color-letra2);
+            font-size: 25px;
+            text-transform: uppercase;
+            font-weight: 700;
+           letter-spacing: 2px;
+        }
 
-.navbar-light .navbar-brand:focus,
-.navbar-light .navbar-brand:hover {
-    color: map-get($colors, $color-letra);
-}
+           .navbar-light .navbar-brand:focus,
+           .navbar-light .navbar-brand:hover {
+            color: map-get($colors, $color-letra);
+        }
 
-.navbar-light .navbar.nav .navbar-link {
-    color: map-get($colors, $color-3);
+            .navbar-light .navbar.nav .navbar-link {
+             color: map-get($colors, $color-3);
 
-}
+        }
+    }
 //FIN DE NAVBAR
 //FIN DE HEADER
